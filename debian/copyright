@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/amnr/xsnap/
+Upstream-Name: xsnap
+Upstream-Contact: Amun <amun@local.host>
+
+Files:
+ *
+Copyright:
+ 2024 Amun <amun@local.host>
+License: NCSA

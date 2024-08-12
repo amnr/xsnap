@@ -1,0 +1,29 @@
+# .gitignore file for Python project.
+
+# Python specific.
+__pycache__/
+*.egg-info/
+build/
+dist/
+*.py[cdo]
+
+# Temporary.
+tmp/
+
+# Binary files.
+*.bin
+*.zip
+
+# Packaging.
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/xsnap/
+debian/*.ex
+debian/*.substvars
+
+# Project specific.
+/xsnap
+*.vsf
+
+# vim: set sts=4 et sw=4:

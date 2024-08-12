@@ -1,0 +1,5 @@
+xsnap (1.0.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #50004)
+
+ -- Amun <amun@local.host>  Mon, 12 Aug 2024 17:41:12 +0100

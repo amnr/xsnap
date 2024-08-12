@@ -1,0 +1,16 @@
+Source: xsnap
+Section: otherosfs
+Priority: optional
+Maintainer: Amun <amun@local.host>
+Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: https://amnr.github.io/xsnap/
+
+Package: xsnap
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, python3 | pypy3
+Description: Create screenshots from emulator snapshot file formats
+ xsnap allows you to create screenshots from various (in the future) emulator
+ snapshots files.
